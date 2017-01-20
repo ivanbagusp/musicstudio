@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg">
+
+    <ImageView
+        android:id="@+id/MsAbout"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/ibp" />
+
+    <TextView
+        android:id="@+id/Ivan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MsAbout"
+        android:layout_centerHorizontal="true"
+        android:textColor="#2c3e50"
+        android:layout_margin="15dp"
+        android:text="Ivan Bagus Pinuntun"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="210dp"
+        android:layout_height="2dp"
+        android:background="#E7DF86"
+        android:layout_below="@id/Ivan"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/Teknik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#2c3e50"
+        android:layout_below="@id/view"
+        android:layout_centerHorizontal="true"
+        android:text="TEKNIK INFORMATIKA"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Teknik"
+        android:layout_centerHorizontal="true"
+        android:textColor="#2c3e50"
+        android:text="UNIVERSITAS GUNADARMA"
+        android:textSize="15dp" />
+</RelativeLayout>

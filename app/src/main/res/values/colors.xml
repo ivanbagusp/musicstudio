@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1D2247</color>
+    <color name="colorPrimaryDark">#151935</color>
+   <color name="colorAccent">#CDDC39</color>
+    <color name="white">#ffffff</color>
+    <color name="text">#999999</color>
+    <color name="title">#222222</color>
+    <color name="klik">#BFBFBF</color>
+
+
+</resources>
